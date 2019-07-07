@@ -14,7 +14,7 @@ project 1 - A Random Quote Generator
   Add the `year` property to at least one object in the array.
   Use console.log() to log your array of quotes to the console.
 ***/
-var quoteList = [
+var quotes = [
   {
     quote: "It is that we are never so defenseless against suffering as when we love, never so helplessly unhappy as when we have lost our loved object or its love.",
     source: "Sigmund Freud",
@@ -79,7 +79,7 @@ var quoteList = [
    - Cse the random number to `return` a random quote object from the `quotes` array.
 ***/
 function getRandomQuote(array) {
-  var quoteIndex = Math.floor(Math.random() * (quoteList.length));
+  var quoteIndex = Math.floor(Math.random() * (quotes.length));
   var randomQuote = array[quoteIndex];
   return randomQuote;
 }
@@ -99,7 +99,7 @@ function getRandomQuote(array) {
 
 function printQuote() {
   var message = "";
-  var result = getRandomQuote(quoteList);
+  var result = getRandomQuote(quotes);
   message = "<p class='quote'>" + result.quote + "</p>";
   message += "<p class='source'>" + result.source;
   message += "<span class='citation'>" + result.citation + "</span>";

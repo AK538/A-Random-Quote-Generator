@@ -30,10 +30,24 @@ var quotes = [
     tags: "#Psychology"
   },
   {
+    quote: " Loneliness does not come from having no people about one, but from being unable to communicate the things that seem important to oneself, or from holding certain views which others find inadmissible. ",
+    source: "Carl Jung",
+    citation: "Memories Dreams and Reflections",
+    year: "1961",
+    tags: "#Philosophy"
+  },
+  {
     quote: "Everything that irritates us about others can lead us to an understanding of ourselves.",
     source: "Carl Jung",
     citation: "Memories, Dreams, Reflectionsy",
     year: "1961",
+    tags: "#Psychology"
+  },
+  {
+    quote: "Every form of addiction is bad, no matter whether the narcotic be alcohol, morphine or idealism.",
+    source: "Carl Jung",
+    citation: "The Undiscovered Self",
+    year: "1933",
     tags: "#Psychology"
   },
   {
@@ -42,13 +56,6 @@ var quotes = [
     citation: "The Brothers Karamazov",
     year: "1880",
     tags: "#Philosophy"
-  },
-  {
-    quote: "Every form of addiction is bad, no matter whether the narcotic be alcohol, morphine or idealism.",
-    source: "Carl Jung",
-    citation: "The Undiscovered Self",
-    year: "1933",
-    tags: "#Psychology"
   },
   {
     quote: "What is most personal is most universal.",
@@ -64,7 +71,7 @@ var quotes = [
     year: "1954",
     tags: "#Psychology"
   },
-  {
+   {
     quote: "...we cannot change, we cannot move away from what we are, until we thoroughly accept what we are. Then change seems to come about almost unnoticed.",
     source: "Carl Rogers",
     citation: "On Becoming a Person",
